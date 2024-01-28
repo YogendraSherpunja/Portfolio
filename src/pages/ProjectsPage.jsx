@@ -1,8 +1,9 @@
 import Navbar from "../components/Navbar";
 import IELTS from "../assets/ielts.jpg";
 import DSN from "../assets/dsn-logo.png"
-import Cotiviti from "../assets/cotiviti.jpg"
+import NextWord from "../assets/nextword.png"
 import Tripplanner from "../assets/tripplanner.jpg"
+import HeartDisease from "../assets/heartdisease.png"
 
 
 const ProjectsPage = () => {
@@ -13,11 +14,11 @@ const ProjectsPage = () => {
       title: 'English Proficiency Test',
       year: '2018',
       technologies: 'Vue.js, Ruby on Rails',
-      description: `A web application allowing students to take PTE mock tests. This project has two front-end apps: one for students and another for admin/manager responsibilities.`,
+      description: `Developed a web-based platform for users to simulate IELTS mock exams, featuring dual front-end applications catering to both student and administrative functions.`,
       responsibilities: [
-        'Worked on recording and playing audio and videos.',
-        'Developed an algorithm for automatic answer checking.',
-        'Built the website as a progressive web app.'
+        'Implementation of audio and video recording/playback features.',
+        'Implemented an algorithm for automated evaluation of responses.',
+        'Constructed the website with progressive web app capabilities.'
       ],
       imageUrl: IELTS
     },
@@ -26,36 +27,46 @@ const ProjectsPage = () => {
       title: 'DSN',
       year: '2019',
       technologies: 'React JS',
-      description: `Edugate is a platform that helps students across Nepal for Entrance Preparation. It has features such as Playing Quiz, Discussion Forum, News and so fourth.`,
+      description: `Dropshipping Nepal is a platform that lets you start your own ecommerce business without investing in products, inventory, or delivery. `,
       responsibilities: [
-        'Mainly worked on admin panel for edugate Saas platform.',
-        'Worked on a feature for posting news on the app.',
-        'Worked on adding question for quiz, subjects and its content form admin dashboard.'
+        'Primarily focused on the administrative panel of the DNS platform.',
+        'Contributed to a feature enabling news posting within the application.',
+        'Worked on products, vendor and customer end functionality. App helped the vendor to deliver their products successfully. '
       ],
       imageUrl: DSN
     },
     {
       id: 3,
-      title: 'Cotiviti',
+      title: 'Next Word Prediction',
       year: '2018',
       technologies: 'Python',
-      description: `It is an AI project which detects handwritten characters. The character consists of 0-9 and A-Z (both uppercase and lowercase).`,
+      description: `It is an AI project which predicts the next word in a sentence fragment.`,
       responsibilities: [
-        'Worked on image pre-processing task to remove noise from the captured image',
-        'Used different algorithms for image processing such as inverting image, Gray scale conversion, image thinning.',
-        'Worked with an EMNIST dataset to train the neural network'
+        'Worked on to write rapidly and without making spelling mistakes.',
+        'Worked on typing accurately and fast is easy on a desktop computer, but when it comes to small devices like mobile phones, it can be tricky and frustrating for many people.',
+        'You won’t have to type complete sentences because the algorithms will predict the next word for you, and typos will be much reduced.'
       ],
-      imageUrl: Cotiviti
+      imageUrl: NextWord
     },
     {
       id: 4,
       title: 'Trip-Planner',
       year: '2018',
-      technologies: 'Ruby on Rails',
-      description: `This website is used to track the investors everyday profit obtained from the share market.`,
+      technologies: 'React and Node js',
+      description: `A trip planner is a tool or application that assists individuals in organizing and coordinating various aspects of their travel arrangements. It typically includes features for scheduling activities, managing accommodations, tracking transportation, and creating itineraries, helping users efficiently plan and navigate their trips.`,
       responsibilities: [],
       imageUrl: Tripplanner
     },
+    {
+      id: 5,
+      title: 'Heart Disease Prediction',
+      year: '2020',
+      technologies: 'Python',
+      description: `This system uses artificial intelligence (AI) approaches to predict the most accurate disease that might be linked to the information provided by a patient. Users can then seek medical advice from specialists based on the system diagnosis. `,
+      responsibilities: [],
+      imageUrl: HeartDisease
+    },
+
 
   ];
 
