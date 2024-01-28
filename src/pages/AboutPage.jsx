@@ -1,3 +1,6 @@
+// student name: Yogendra Magar
+// student id: 301370036
+
 import Navbar from "../components/Navbar";
 import MyImage from "../assets/photo.jpg"
 import MyResume from "../assets/yogendra_magar_cv.pdf"

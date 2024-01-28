@@ -1,3 +1,6 @@
+// student name: Yogendra Magar
+// student id: 301370036
+
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import ComputerImage from "../assets/computer.jpg"

@@ -1,3 +1,8 @@
+// student name: Yogendra Magar
+// student id: 301370036
+
+
+
 import './App.css';
 import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';

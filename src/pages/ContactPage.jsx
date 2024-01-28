@@ -1,3 +1,6 @@
+// student name: Yogendra Magar
+// student id: 301370036
+
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 

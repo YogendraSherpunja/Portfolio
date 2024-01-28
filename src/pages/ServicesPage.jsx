@@ -1,3 +1,6 @@
+// student name: Yogendra Magar
+// student id: 301370036
+
 import Navbar from "../components/Navbar";
 import { MdOutlineWebAssetOff } from "react-icons/md";
 import { FaFreeCodeCamp } from "react-icons/fa";

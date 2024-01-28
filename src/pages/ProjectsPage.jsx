@@ -1,3 +1,7 @@
+// student name: Yogendra Magar
+// student id: 301370036
+
+
 import Navbar from "../components/Navbar";
 import IELTS from "../assets/ielts.jpg";
 import DSN from "../assets/dsn-logo.png"
